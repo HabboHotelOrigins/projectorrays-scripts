@@ -22,5 +22,5 @@ fi
 # Creates a new empty "src" folder.
 mkdir ./src/
 
-# Checks if "src" folder exists.
+# Moves all files (not folders or files in subfolders) to the new "src" folder.
 mv ./scripts/*.* ./src/
